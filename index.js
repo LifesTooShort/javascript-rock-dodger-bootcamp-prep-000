@@ -131,7 +131,7 @@ function endGame() {
   // move the dodger back to its starting place
   DODGER.style = "bottom: 0px; left: 180px";
 
-  START.innerHTML = "Game Over!\nNew Game?"
+  START.innerHTML = "You Lose!\nNew Game?"
   START.style.display = 'inline'
 
 }
